@@ -17,6 +17,8 @@ import { default as contract } from 'truffle-contract'
 
 import voting_artifacts from '../../build/contracts/Voting.json'
 
+var PORT = process.env.PORT || 80;
+
 var Voting = contract(voting_artifacts);
 
 let candidates = {"Rama": "candidate-1", "Nick": "candidate-2", "Jose": "candidate-3"}
