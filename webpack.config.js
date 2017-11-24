@@ -9,7 +9,7 @@ module.exports = {
   },
   devServer: {
     inline:true,
-    port: 8008
+    port: 80
   },
   plugins: [
     // Copy our app's index.html to the build folder.
